@@ -11,11 +11,14 @@
         <activity android:name=".MyForm">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyResult"></activity>
+        <activity
+            android:name=".MyResult"
+            android:parentActivityName="com.code.in.river.namescoreapp.MyForm"
+            android:label="@string/title_activity_my_result">
+        </activity>
     </application>
 
 </manifest>

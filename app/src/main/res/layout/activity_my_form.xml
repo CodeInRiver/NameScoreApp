@@ -11,14 +11,14 @@
     tools:context="com.code.in.river.namescoreapp.MyForm">
 
     <EditText
-        android:hint="your name ..."
+        android:hint="@string/name_hint"
         android:id="@+id/myEditText"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
 
     <Button
-        android:text="submit"
+        android:text="@string/button_label"
         android:id="@+id/myButton"
         android:onClick="getScore"
         android:layout_width="wrap_content"
